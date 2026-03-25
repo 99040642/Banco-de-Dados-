@@ -1,0 +1,32 @@
+ALTER TABLE Livro 
+DROP COLUMN autor,
+DROP COLUMN editora,
+DROP COLUMN categoria;
+
+ALTER TABLE Livro
+ADD COLUMN id_usuario INT,
+ADD COLUMN id_autor INT,
+ADD COLUMN id_editora INT,
+ADD COLUMN id_categoria INT,
+ADD COLUMN data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+ADD COLUMN data_atualizacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+
+ALTER TABLE Livro
+ADD CONSTRAINT fk_livro_usuario
+FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
+ON DELETE CASCADE;
+
+ALTER TABLE Livro
+ADD CONSTRAINT fk_livro_autor
+FOREIGN KEY (id_autor) REFERENCES Autor(id_autor)
+ON DELETE RESTRICT;
+
+ALTER TABLE Livro
+ADD CONSTRAINT fk_livro_editora
+FOREIGN KEY (id_editora) REFERENCES Editora(id_editora)
+ON DELETE RESTRICT;
+
+ALTER TABLE Livro
+ADD CONSTRAINT fk_livro_categoria
+FOREIGN KEY (id_categoria) REFERENCES Categoria(id_categoria)
+ON DELETE RESTRICT;
