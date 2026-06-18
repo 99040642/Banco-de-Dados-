@@ -1,4 +1,4 @@
-# 🚀 Infinity Hardware – Sistema de Gestão para E-commerce
+# Infinity Hardware – Sistema de Gestão para E-commerce
 
 Projeto acadêmico de modelagem e implementação de Banco de Dados Relacional desenvolvido para consolidar os conceitos de herança, integridade referencial, chaves compostas e consultas complexas trabalhados ao longo do semestre.
 
@@ -12,7 +12,7 @@ Projeto acadêmico de modelagem e implementação de Banco de Dados Relacional d
 
 ---
 
-## 🏬 O Cenário: Infinity Hardware
+## O Cenário: Infinity Hardware
 A **Infinity Hardware** é uma empresa especializada na comercialização de produtos eletrônicos e equipamentos tecnológicos por meio de grandes plataformas de e-commerce e marketplaces (como Amazon, Shopee e Mercado Livre). Seu catálogo inclui itens como receptores de TV, computadores, notebooks, periféricos e caixas de som.
 
 ### ⚙️ Funcionamento Operacional
@@ -24,7 +24,7 @@ A **Infinity Hardware** é uma empresa especializada na comercialização de pro
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 O repositório está dividido nas seguintes pastas para facilitar a avaliação técnica:
 
@@ -36,7 +36,7 @@ O repositório está dividido nas seguintes pastas para facilitar a avaliação 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **SGBD:** MySQL / MariaDB
 * **Modelagem:** draw.io
 * **Versionamento:** Git e GitHub
