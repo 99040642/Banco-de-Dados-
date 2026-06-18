@@ -8,7 +8,6 @@ Projeto acadêmico de modelagem e implementação de Banco de Dados Relacional d
 * Matheus Leite dos Santos
 * Nicole Kethelen Lima Cavalcante
 * Samuel Rocha do Nascimento
-* Sarah Santos de Rezende Zandoná
 * João Vitor Gomes de Farias
 
 ---
