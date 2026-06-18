@@ -4,7 +4,7 @@ Projeto acadêmico de modelagem e implementação de Banco de Dados Relacional d
 
 ---
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 * Matheus Leite dos Santos
 * Nicole Kethelen Lima Cavalcante
 * Samuel Rocha do Nascimento
@@ -15,7 +15,7 @@ Projeto acadêmico de modelagem e implementação de Banco de Dados Relacional d
 ## O Cenário: Infinity Hardware
 A **Infinity Hardware** é uma empresa especializada na comercialização de produtos eletrônicos e equipamentos tecnológicos por meio de grandes plataformas de e-commerce e marketplaces (como Amazon, Shopee e Mercado Livre). Seu catálogo inclui itens como receptores de TV, computadores, notebooks, periféricos e caixas de som.
 
-### ⚙️ Funcionamento Operacional
+### Funcionamento Operacional
 1. **Recebimento de Pedidos:** As vendas feitas nas plataformas são integradas automaticamente ao sistema.
 2. **Controle de Estoque:** Atualização automática da quantidade de produtos disponíveis após cada venda.
 3. **Separação e Conferência:** Funcionários do setor de logística localizam os itens no estoque e efetuam a checagem.
